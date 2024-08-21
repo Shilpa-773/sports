@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+    *{
+      box-sizing: border-box;
+      padding: 0%;
+      margin: 0%;
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url(1.jpeg) no-repeat;
+       background-size: cover;
+      }
+    }
+    form{
+      width: 420px;
+      align-items: center;
+    background-color:transparent;
+    justify-content: center;
+    border: 2px solid rgba(255, 255,255, .2);
+    padding:20px;
+    width: 420px; 
+  border-radius: 10px;   }
+    .submitbtn{
+        background-color:white;
+        color:black;
+        padding: 2px;
+     
+    }
+    button{
+      align-items: center;
+    }
+   
+      
+    
+
+    </style>
+</head>
+<body>
+   
+        <form>
+            <div class="container">
+                
+                <div class="content">
+     
+             <div class="box">  
+        <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+    <div class="custom-select" style="width:200px;">
+        <select>
+          <option value="0">Select sports:</option>
+          <option value="1">Running</option>
+          <option value="2">Cricket</option>
+          <option value="3">Football</option>
+          <option value="4">Basketball</option>
+          <option value="5">Volleyball</option>
+          <option value="6">Hockey</option>
+          <option value="7">Tennis</option>
+          <option value="8">Cycling</option>
+          <option value="9">Wrestling</option>
+         
+        </select>
+      </div>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <button type="submit">Register</button><br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+             </div>
+</div>
+</div>
+
+    </form>
+</body>
+    </html>
